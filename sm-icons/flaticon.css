@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	font-family: 'Roboto', Flaticon, Sans-serif;
+        font-size: 30px;
+				font-weight:normal;
+				font-style: normal;
+				-webkit-font-smoothing: antialiased;
+				font-smoothing: antialiased;
+				text-rendering: optimizeLegibility;
+
+}
+[class^="flaticon-"]:hover, [class*=" flaticon-"]:hover,
+[class^="flaticon-"]:hover, [class*=" flaticon-"]:hover {
+	color: #3bbadc;
+}
+.flaticon-facebook51:before {
+	content: "\e000";
+	line-height: 27px;
+	position: relative;
+	text-align: center;
+	margin-left: 15px;
+}
+.flaticon-twitter44:before {
+	content: "\e001";
+	line-height: 27px;
+	position: relative;
+	text-align: center;
+}
+
+.flaticon-facebook51, .flaticon-twitter44 {
+	color: #87898D;
+}
