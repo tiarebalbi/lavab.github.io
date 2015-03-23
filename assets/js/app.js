@@ -11,7 +11,7 @@ $(document).ready(function() {
   //Mobile items
   $('.mobile-menu-list').append('<a href="about"><li class="mobile-menu-item col-xs-6 col-lg-6 col-md-6">Our Team</li></a>');
   $('.mobile-menu-list').append('<a href="features"><li class="mobile-menu-item col-xs-6 col-lg-6 col-md-6">Features</li></a>');
-  $('.mobile-menu-list').append('<a href="Design"><li class="mobile-menu-item col-xs-6 col-lg-6 col-md-6">Design details</li></a>');
+  $('.mobile-menu-list').append('<a href="design"><li class="mobile-menu-item col-xs-6 col-lg-6 col-md-6">Design details</li></a>');
   $('.mobile-menu-list').append('<a href="security"><li class="mobile-menu-item col-xs-6 col-lg-6 col-md-6">Security</li></a>');
   $('.mobile-menu-list').append('<a href="tech-info"><li class="mobile-menu-item col-xs-6 col-lg-6 col-md-6">Whitepaper</li></a>');
   $('.mobile-menu-list').append('<a href="contact"><li class="mobile-menu-item col-xs-6 col-lg-6 col-md-6">Contact</li></a>');
