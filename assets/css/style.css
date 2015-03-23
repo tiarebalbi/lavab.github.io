@@ -1974,13 +1974,16 @@ box-shadow: inset 40px 0px 50px -45px rgba(0,0,0,0.75);
     display: inline-block;
     line-height: 2;
   }
+  .logo-full {
+    margin-left: 10px;
+  }
   .desktop-menu-list-item {
     display: none;
   }
 
   .mobile-menu {
     float: right;
-    margin-right: 30px;
+    margin-right: 25px;
     margin-top: 19px;
     position: relative;
     z-index: 5;
@@ -2069,7 +2072,7 @@ box-shadow: inset 40px 0px 50px -45px rgba(0,0,0,0.75);
     font-weight: 300;
     color: #fff;
     float: right;
-    margin:19px 30px 0 0;
+    margin:19px 25px 0 0;
     background-image: url("../../img/x.png");
     background-size: 22px;
   }
@@ -2158,11 +2161,13 @@ box-shadow: inset 40px 0px 50px -45px rgba(0,0,0,0.75);
   .security-text-div {
     padding: 0px;
   }
+
 }
   @media only screen and (max-width : 520px){
     .desktop-menu-buttons {
       display: none;
     }
+
     .solution {
       height: 60%;
       max-width: 100%;
