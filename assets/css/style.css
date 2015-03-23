@@ -2241,16 +2241,16 @@ p {
 }
 
 #reserve {
-  width: 300px;
+  width: 300px !important;
   margin: auto;
 }
 
 .reserve {
-  width: 300px;
+  width: 100% !important;
 }
 
 .signup-input {
-  width: 100%;
+  width: 100% !important;
 }
 
 .username {
