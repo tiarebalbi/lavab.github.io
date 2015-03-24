@@ -106,7 +106,7 @@ $(document).ready(function() {
   if (windowWidth <= 500) {
     $('.mobile-menu').click(function() {
       $('.mobile-menu-view').show();
-      $('.mobile-menu-view').animate({height:"195px"}, 500 );
+      $('.mobile-menu-view').animate({height:"195px"}, 100 );
       $('.mobile-menu').hide();
       $('.mobile-menu-list').show();
       $('#close-mobile-menu').show();
@@ -114,7 +114,7 @@ $(document).ready(function() {
   } else {
     $('.mobile-menu').click(function() {
       $('.mobile-menu-view').show();
-      $('.mobile-menu-view').animate({height:"195px"}, 500 );
+      $('.mobile-menu-view').animate({height:"195px"}, 100 );
       $('.mobile-menu').hide();
       $('.mobile-menu-list').show();
       $('#close-mobile-menu').show();
