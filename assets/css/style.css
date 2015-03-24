@@ -349,7 +349,7 @@ p a:hover {
   text-decoration:underline;
 }
 
-ul { list-style: none; -webkit-padding-start: 0px; }
+ul { list-style: none; -webkit-padding-start: 0px; -moz-padding-start: 0px; }
 
 .banner-wrapper {
   margin: 10px auto 0px !important;
@@ -1306,7 +1306,30 @@ li.party-link:hover {
   height: 120px;
   background-repeat: no-repeat;
 }
-
+#fvl-img {
+  background-image: url("../../img/fvl.png");
+  background-size: cover;
+  height: 120px;
+  background-repeat: no-repeat;
+}
+#fmi-img {
+  background-image: url("../../img/fmi.jpg");
+  background-size: cover;
+  height: 120px;
+  background-repeat: no-repeat;
+}
+#jonas-img {
+  background-image: url("../../img/jonas.png");
+  background-size: cover;
+  height: 120px;
+  background-repeat: no-repeat;
+}
+#henrik-img {
+  background-image: url("../../img/henrik.jpg");
+  background-size: cover;
+  height: 120px;
+  background-repeat: no-repeat;
+}
 .face-name {
   margin: auto;
   text-align: center;
@@ -2289,18 +2312,43 @@ p {
 
     .security-main-wrapper {
       width: 100%;
-      height: 350px;
+      height: 200px;
+    }
+    .security-text-wrapper {
+      padding: 10px 30px 40px !important;
     }
     .attack-vector {
-      width: 120%;
-      height: 350px;
+      width: 50%;
+      height: 150px;
       display: inline-block;
     }
     .width-625 {
-      display: none;
+      width: 25%;
+      display: inline-block;
     }
-
+    .width-625 {
+      width: 25%;
+    }
+    .attack-vector-active {
+      -webkit-animation: pulsate 1s ease-out;
+      -webkit-animation-iteration-count: infinite;
+    }
     .attack-vector-active:after {
       display: none;
+    }
+    @-webkit-keyframes pulsate {
+      0% {
+        -webkit-filter: none;
+        filter: none;
+      }
+      50% {
+        -webkit-filter: drop-shadow(5px 5px 5px #000);
+        filter: drop-shadow(5px 5px 5px #000);
+      }
+      100% {
+        -webkit-filter: none;
+        filter: none;
+      }
+
     }
 }
