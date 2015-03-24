@@ -105,14 +105,14 @@ $(document).ready(function() {
   if (windowWidth <= 500) {
     $('.mobile-menu').click(function() {
       $('.mobile-menu-view').show();
-      $('.mobile-menu-view').animate({height:"200px"}, 500 );
+      $('.mobile-menu-view').animate({height:"195px"}, 500 );
       $('.mobile-menu').hide();
       $('#close-mobile-menu').show();
     });
   } else {
     $('.mobile-menu').click(function() {
       $('.mobile-menu-view').show();
-      $('.mobile-menu-view').animate({height:"230px"}, 500 );
+      $('.mobile-menu-view').animate({height:"195px"}, 500 );
       $('.mobile-menu').hide();
       $('#close-mobile-menu').show();
     });
