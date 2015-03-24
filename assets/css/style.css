@@ -804,10 +804,9 @@ li.party-link:hover {
 
 .solution {
   margin: auto;
-  content: url("../../img/inbox3.png");
+  background-image: url("../../img/inbox3.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 73%;
   /* max-height: 500px; */
   /* min-width: 800px; */
   border-radius: 3 3 0 0;
@@ -820,6 +819,8 @@ li.party-link:hover {
   right: 0;
   vertical-align: middle;
   text-align: center;
+  height: inherit;
+  margin-top: 100px;
 }
 
 
@@ -1946,7 +1947,7 @@ box-shadow: inset 40px 0px 50px -45px rgba(0,0,0,0.75);
     content:url("../../img/ovsn_h.png");
   }
   .solution-div {
-    margin: 0 auto 0;
+    margin: 50 auto 0;
     height: 200px;
     position: relative;
     width: 100%;
