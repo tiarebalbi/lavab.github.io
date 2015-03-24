@@ -101,12 +101,14 @@ $(document).ready(function() {
     $('.mobile-menu-view').animate({height:"0px"});
     $('#close-mobile-menu').hide();
     $('.mobile-menu').show();
+    $('.mobile-menu-list').show();
   });
   if (windowWidth <= 500) {
     $('.mobile-menu').click(function() {
       $('.mobile-menu-view').show();
       $('.mobile-menu-view').animate({height:"195px"}, 500 );
       $('.mobile-menu').hide();
+      $('.mobile-menu-list').hide();
       $('#close-mobile-menu').show();
     });
   } else {
@@ -114,6 +116,7 @@ $(document).ready(function() {
       $('.mobile-menu-view').show();
       $('.mobile-menu-view').animate({height:"195px"}, 500 );
       $('.mobile-menu').hide();
+      $('.mobile-menu-list').hide();
       $('#close-mobile-menu').show();
     });
   }
