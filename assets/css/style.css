@@ -568,7 +568,6 @@ li.party-link:hover {
 
 .hero-image {
   -webkit-backface-visibility: hidden;
-
   background: url("../../img/inbox.jpg");
   box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
   background-size: 100%;
@@ -781,6 +780,9 @@ li.party-link:hover {
   background-color: #fff;
 }
 
+.solution-intro {
+  height:30%;
+}
 .Solution-intro h1 {
   color: #3bbadc;
   text-align: center;
@@ -794,21 +796,17 @@ li.party-link:hover {
   min-width: 300px;
 }
 
-
-
 .solution-div {
-  margin: -50 auto 0;
-  height: 400px;
   position: relative;
+  margin: 10% auto 0;
+  height: 40%;
 }
 
 .solution {
   margin: auto;
   background-image: url("../../img/inbox3.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  /* max-height: 500px; */
-  /* min-width: 800px; */
+  background-size: 100% auto;
   border-radius: 3 3 0 0;
   -webkit-box-shadow: 0px -2px 50px 0px rgba(0,0,0,0.31);
   -moz-box-shadow: 0px -2px 50px 0px rgba(0,0,0,0.31);
@@ -819,8 +817,14 @@ li.party-link:hover {
   right: 0;
   vertical-align: middle;
   text-align: center;
-  height: inherit;
-  margin-top: 100px;
+
+  -webkit-backface-visibility: hidden;
+  background-size: 100%;
+  width: 85%;
+  border: none;
+  height: 100%;
+
+  /* A mistake plus keleven gets you home by seven */
 }
 
 
@@ -2186,9 +2190,11 @@ box-shadow: inset 40px 0px 50px -45px rgba(0,0,0,0.75);
     .desktop-menu-buttons {
       display: none;
     }
-
+    .solution-div {
+      height: 20%;
+    }
     .solution {
-      height: 60%;
+      height: 70%;
       max-width: 100%;
     }
     .security-container {
