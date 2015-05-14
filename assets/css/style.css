@@ -1955,9 +1955,12 @@ box-shadow: inset 40px 0px 50px -45px rgba(0,0,0,0.75);
   footer {
     padding: 10px;
   }
-  .benefit-img {
-    content:url("../../img/ovsn_h.png");
-  }
+#title-h2-white-right {
+  font-size: 12px;
+}
+#title-h2-white-left {
+	font-size: 12px;
+}
   .solution-div {
     margin: 50 auto 0;
     height: 200px;
