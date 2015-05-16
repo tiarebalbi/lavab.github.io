@@ -422,6 +422,12 @@ a.read-more {
   font-weight: 500;
 }
 
+.dark-pre {
+	color: #CCCBD0;
+	background: #34383d;
+	border-color: #464c53;
+}
+
 /* Ends */
 
 
@@ -2369,10 +2375,4 @@ p {
   }
  */
     }
-}
-
-.dark-pre {
-	color: #CCCBD0;
-	background: #34383d;
-	border-color: #464c53;
 }
