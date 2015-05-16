@@ -2371,7 +2371,7 @@ p {
     }
 }
 
-pre {
+.dark-pre {
 	color: #CCCBD0;
 	background: #34383d;
 	border-color: #464c53;
